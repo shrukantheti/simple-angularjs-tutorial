@@ -1,6 +1,6 @@
 // Code goes here
 (function() {
-    var app = angular.module("sampleApp");
+    var app = angular.module("githubApp");
     var UserCtrl = function($scope, githubService, $routeParams) {
         var onUserComplete = function(data) {
             $scope.user = data;
