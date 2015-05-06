@@ -1,7 +1,7 @@
 
 (function(){
     
-    var module = angular.module("sampleApp");
+    var module = angular.module("githubApp");
     
     var RepoCtrl = function($scope, $routeParams, githubService){
         var reponame = $routeParams.reponame;
