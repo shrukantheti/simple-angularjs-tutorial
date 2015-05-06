@@ -1,6 +1,6 @@
 // Code goes here
 (function() {
-    var app = angular.module("sampleApp");
+    var app = angular.module("githubApp");
     var MainCtrl = function($scope, $interval, $location) {
         
         var decrementCountdown = function() {
