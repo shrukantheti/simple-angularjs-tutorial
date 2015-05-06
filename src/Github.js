@@ -33,6 +33,6 @@
         };
     };
 
-    var module = angular.module("sampleApp");
+    var module = angular.module("githubApp");
     module.factory("githubService", github);
 }());
