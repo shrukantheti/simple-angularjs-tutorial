@@ -1,6 +1,6 @@
 (function(){
     
-    var app = angular.module("sampleApp", ["ngRoute"]);
+    var app = angular.module("githubApp", ["ngRoute"]);
     
     app.config(function($routeProvider){
         $routeProvider
